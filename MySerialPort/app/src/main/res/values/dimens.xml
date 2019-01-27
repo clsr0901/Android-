@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="one_and_a_half_grid_unit">10dp</dimen>
+    <dimen name="user_info_height">40dp</dimen>
+    <dimen name="user_info_top">5dp</dimen>
+    <dimen name="user_info_size">14sp</dimen>
+    <dimen name="home_image">50dp</dimen>
+    <dimen name="paddingLeft">5dp</dimen>
+    <dimen name="text_margin_right">2dp</dimen>
+    <dimen name="task_item_height">60dp</dimen>
+    <dimen name="margin_top">20dp</dimen>
+    <dimen name="padding">20dp</dimen>
+</resources>

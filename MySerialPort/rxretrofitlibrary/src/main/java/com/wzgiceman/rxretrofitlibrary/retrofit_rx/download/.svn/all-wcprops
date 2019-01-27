@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 224
+/svn/SystemSoftware/!svn/ver/35887/%E6%99%BA%E8%83%BD%E5%B9%BF%E6%92%AD/IBMS/Trunk/ProjectCode/Code/Src/AndroidApp/SmartBoradCastSystemv2.3/rxretrofitlibrary/src/main/java/com/wzgiceman/rxretrofitlibrary/retrofit_rx/download
+END
+HttpDownManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 245
+/svn/SystemSoftware/!svn/ver/25808/%E6%99%BA%E8%83%BD%E5%B9%BF%E6%92%AD/IBMS/Trunk/ProjectCode/Code/Src/AndroidApp/SmartBoradCastSystemv2.3/rxretrofitlibrary/src/main/java/com/wzgiceman/rxretrofitlibrary/retrofit_rx/download/HttpDownManager.java
+END
+DownInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 238
+/svn/SystemSoftware/!svn/ver/35887/%E6%99%BA%E8%83%BD%E5%B9%BF%E6%92%AD/IBMS/Trunk/ProjectCode/Code/Src/AndroidApp/SmartBoradCastSystemv2.3/rxretrofitlibrary/src/main/java/com/wzgiceman/rxretrofitlibrary/retrofit_rx/download/DownInfo.java
+END
+DownState.java
+K 25
+svn:wc:ra_dav:version-url
+V 239
+/svn/SystemSoftware/!svn/ver/25808/%E6%99%BA%E8%83%BD%E5%B9%BF%E6%92%AD/IBMS/Trunk/ProjectCode/Code/Src/AndroidApp/SmartBoradCastSystemv2.3/rxretrofitlibrary/src/main/java/com/wzgiceman/rxretrofitlibrary/retrofit_rx/download/DownState.java
+END
+HttpDownService.java
+K 25
+svn:wc:ra_dav:version-url
+V 245
+/svn/SystemSoftware/!svn/ver/25808/%E6%99%BA%E8%83%BD%E5%B9%BF%E6%92%AD/IBMS/Trunk/ProjectCode/Code/Src/AndroidApp/SmartBoradCastSystemv2.3/rxretrofitlibrary/src/main/java/com/wzgiceman/rxretrofitlibrary/retrofit_rx/download/HttpDownService.java
+END

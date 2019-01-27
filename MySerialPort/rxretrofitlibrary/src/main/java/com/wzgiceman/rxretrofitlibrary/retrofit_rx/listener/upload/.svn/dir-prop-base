@@ -1,0 +1,11 @@
+K 15
+tsvn:logminsize
+V 2
+25
+K 16
+tsvn:logtemplate
+V 40
+ *修改说明*：
+ *是否完成*：
+
+END

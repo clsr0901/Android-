@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 241
+/svn/SystemSoftware/!svn/ver/25808/%E6%99%BA%E8%83%BD%E5%B9%BF%E6%92%AD/IBMS/Trunk/ProjectCode/Code/Src/AndroidApp/SmartBoradCastSystemv2.3/rxretrofitlibrary/src/main/java/com/wzgiceman/rxretrofitlibrary/retrofit_rx/download/DownLoadListener
+END
+DownloadProgressListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 271
+/svn/SystemSoftware/!svn/ver/25808/%E6%99%BA%E8%83%BD%E5%B9%BF%E6%92%AD/IBMS/Trunk/ProjectCode/Code/Src/AndroidApp/SmartBoradCastSystemv2.3/rxretrofitlibrary/src/main/java/com/wzgiceman/rxretrofitlibrary/retrofit_rx/download/DownLoadListener/DownloadProgressListener.java
+END
+DownloadResponseBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 267
+/svn/SystemSoftware/!svn/ver/25808/%E6%99%BA%E8%83%BD%E5%B9%BF%E6%92%AD/IBMS/Trunk/ProjectCode/Code/Src/AndroidApp/SmartBoradCastSystemv2.3/rxretrofitlibrary/src/main/java/com/wzgiceman/rxretrofitlibrary/retrofit_rx/download/DownLoadListener/DownloadResponseBody.java
+END
+DownloadInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 266
+/svn/SystemSoftware/!svn/ver/25808/%E6%99%BA%E8%83%BD%E5%B9%BF%E6%92%AD/IBMS/Trunk/ProjectCode/Code/Src/AndroidApp/SmartBoradCastSystemv2.3/rxretrofitlibrary/src/main/java/com/wzgiceman/rxretrofitlibrary/retrofit_rx/download/DownLoadListener/DownloadInterceptor.java
+END

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">称重系统</string>
+    <string name="input_hostname">请输入域名</string>
+</resources>

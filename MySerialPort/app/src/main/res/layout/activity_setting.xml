@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_set_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_eeeeee"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/kwjrni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/arrow_back" />
+
+        <TextView
+            android:id="@+id/line"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/back"
+            android:layout_alignTop="@+id/back"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/back"
+            android:background="@color/colorbutton" />
+
+        <TextView
+            android:id="@+id/tv_tilteName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="@dimen/paddingLeft"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@+id/line"
+            android:gravity="center"
+            android:text="设置"
+            android:textColor="@color/color_eeeeee"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/text_margin_right"
+            android:padding="5dp"
+            android:text="确定"
+            android:textColor="@color/color_ffffff"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/task_item_height"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@color/color_ffffff"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/padding"
+        android:paddingRight="5dp">
+
+        <ImageView
+            android:id="@+id/iv_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/url" />
+
+        <TextView
+            android:id="@+id/tv_url"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_url"
+            android:gravity="center"
+            android:text="URL:"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/et_url"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_url"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:hint="@string/input_hostname"
+            android:textSize="12sp"
+            android:inputType="textUri" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/task_item_height"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@color/color_ffffff"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/padding"
+        android:paddingRight="5dp">
+
+        <ImageView
+            android:id="@+id/iv_port"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/mac" />
+
+        <TextView
+            android:id="@+id/tv_port"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_port"
+            android:gravity="center"
+            android:text="串口: "
+            android:textColor="@color/colorPrimaryDark" />
+
+        <cn.humiao.myserialport.view.spinner.NiceSpinner
+            android:id="@+id/port_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_port"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true">
+        </cn.humiao.myserialport.view.spinner.NiceSpinner>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/task_item_height"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@color/color_ffffff"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/padding"
+        android:paddingRight="5dp">
+
+        <ImageView
+            android:id="@+id/iv_mac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/mac" />
+
+        <TextView
+            android:id="@+id/tv_mac"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_mac"
+            android:gravity="center"
+            android:text="MAC: "
+            android:textColor="@color/colorPrimaryDark" />
+        <TextView
+            android:id="@+id/mac_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_mac"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true">
+        </TextView>
+
+
+
+    </RelativeLayout>
+</LinearLayout>

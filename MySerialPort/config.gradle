@@ -1,0 +1,32 @@
+// 全局  gradle
+ext {
+    versions = [
+            "buildToolsVersion": "28.0.3",
+            "compileSdkVersion": 28,
+            "minSdkVersion"    : 14,
+            "targetSdkVersion" : 25,
+            "versionCode"      : 2,
+            "versionName"      : "1.0.0"
+    ]
+    dependencies = [
+            // 依赖包 ：
+            "appcompat-v7" : 'com.android.support:appcompat-v7:27.1.0',
+            "support-v4" : 'com.android.support:support-v4:27.1.0',
+            "design" : 'com.android.support:design:27.1.0',
+            "support-annotations" : 'com.android.support:support-annotations:25.2.0',
+            "support-compat" : 'com.android.support:support-compat:27.1.0',
+            "recyclerview-v7" : 'com.android.support:recyclerview-v7:27.1.0',
+            "support-core-ui" : 'com.android.support:support-core-ui:27.0.1'
+//
+//            "jsonrpc-ws-android" : 'fi.vtt.nubomedia:jsonrpc-ws-android:1.1.0',
+//            "utilities-android" : 'fi.vtt.nubomedia:utilities-android:1.0.2',
+//            "webrtcpeer-android" : 'fi.vtt.nubomedia:webrtcpeer-android:1.1.2',
+//            "kurento-room-client-android" : 'fi.vtt.nubomedia:kurento-room-client-android:1.1.2',
+//
+//            "react-native" : 'com.facebook.react:react-native:+',
+//            "kotlin-stdlib-jre7" : "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version",
+//
+//            "gson" : 'com.google.code.gson:gson:2.8.2',
+//            "logging-interceptor" : 'com.squareup.okhttp3:logging-interceptor:3.6.0',
+    ]
+}

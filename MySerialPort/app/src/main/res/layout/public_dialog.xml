@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <LinearLayout
+            android:id="@+id/ll_publicdialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_background"
+            android:layout_margin="24dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/id_loading"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="13dp"
+                android:indeterminateDrawable="@drawable/loading"
+                android:indeterminateDuration="700"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/id_iv_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:contentDescription="@string/app_name"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/id_tv_dialog"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/input"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_eeeeee"
+                android:focusable="true"
+                android:hint="@string/input_hostname"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/id_lines"
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/color_919191"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/id_btn_sure"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textColor="@color/color_1474da"
+                    android:textSize="17sp"
+                    android:visibility="gone" />
+
+                <View
+                    android:id="@+id/id_line"
+                    android:layout_width="1px"
+                    android:layout_height="40dp"
+                    android:background="@color/color_919191"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/id_btn_cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textColor="@color/color_ff4747"
+                    android:textSize="17sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>

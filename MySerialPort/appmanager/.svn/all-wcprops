@@ -1,0 +1,39 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 29
+/svn/SystemSoftware/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/SystemSoftware/!svn/ver/35876/%E6%99%BA%E8%83%BD%E5%B9%BF%E6%92%AD/IBMS/Trunk/ProjectCode/Code/Src/AndroidApp/SmartBoradCastSystemv2.3/appmanager
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/SystemSoftware/!svn/ver/35876/%E6%99%BA%E8%83%BD%E5%B9%BF%E6%92%AD/IBMS/Trunk/ProjectCode/Code/Src/AndroidApp/SmartBoradCastSystemv2.3/appmanager/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/SystemSoftware/!svn/ver/35876/%E6%99%BA%E8%83%BD%E5%B9%BF%E6%92%AD/IBMS/Trunk/ProjectCode/Code/Src/AndroidApp/SmartBoradCastSystemv2.3/appmanager/.project
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/SystemSoftware/!svn/ver/25808/%E6%99%BA%E8%83%BD%E5%B9%BF%E6%92%AD/IBMS/Trunk/ProjectCode/Code/Src/AndroidApp/SmartBoradCastSystemv2.3/appmanager/.gitignore
+END
+proguard-rules.pro
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/SystemSoftware/!svn/ver/25808/%E6%99%BA%E8%83%BD%E5%B9%BF%E6%92%AD/IBMS/Trunk/ProjectCode/Code/Src/AndroidApp/SmartBoradCastSystemv2.3/appmanager/proguard-rules.pro
+END
+build.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/SystemSoftware/!svn/ver/35876/%E6%99%BA%E8%83%BD%E5%B9%BF%E6%92%AD/IBMS/Trunk/ProjectCode/Code/Src/AndroidApp/SmartBoradCastSystemv2.3/appmanager/build.gradle
+END
